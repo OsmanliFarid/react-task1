@@ -1,68 +1,104 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto_Condensed-Regular.ttf);
 }
-a:hover {
-  color: #535bf2;
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+ul{
+    display: flex;
+    gap: 30px;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.Container{
+    max-width: 70vw;
+    margin: auto;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+.Container2{
+    max-width: 58.3vw;
+    margin: auto;
 }
-button:hover {
-  border-color: #646cff;
+.logo img{
+    margin-top: 30px;
+   
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.Header{
+    background: url(../public/Rectangle\ 14.jpg) no-repeat center;
+    background-size: cover;
+    height: 800px;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+ul li a{
+    text-decoration: none;
+    font-family: Roboto;
+    color: #363636;
+    font-weight: 400;
+}
+.HeaderTitleBox{
+    text-align: center;
+    margin-right: -50px;
+}
+.HeaderTitle,.HeaderTitle2,.HeaderTitle3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.HeaderTitle{
+    font-size: 76px;
+    line-height: 100%;
+    margin-top: -20px;
+}
+.HeaderTitle2{
+    font-weight: 400;
+    font-size: 48px;
+}
+.HeaderTitle3{
+    color: #9F6B08;
+    font-weight: 400;
+    font-size: 34px;
+}
+.HeaderBorder{
+    border: 0.8px solid #040404;
+    width: 386px;
+    margin: auto;
+}
+.HeaderTitle4{
+    color: #363636;
+    font-weight: 400;
+    font-size: 15.53px;
+    font-family: Roboto;
+    margin-top: 10px;
+}
+.MainDescTitleBox{
+    display: flex;
+}
+.MainTitle{
+    color: #040404;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+}
+.MainDescTitle{
+    color: #040404;
+    font-weight: 400;
+    font-family: Roboto;
+    width: 439px;
+    line-height: 120%;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.MainDescTitle2{
+    width: 438px;
+    color: #040404;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 20px;
 }
