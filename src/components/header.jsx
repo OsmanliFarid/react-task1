@@ -1,8 +1,13 @@
+
+
 const Header = () =>{
+    
+    
     return (
         <div className="Header">
             <div className="Container">
-            <div className="Navbar">
+            <div className="NavbarBox">
+                <div className="Navbar">
                 <ul>
                     <li><a href="./index.html">О гонке</a></li>
                     <li><a href="#">Трек</a></li>
@@ -10,13 +15,25 @@ const Header = () =>{
                     <li><a href="#">Новости</a></li>
                 </ul>
                 <div className="logo">
-                    <img src="./public/Logo.svg" alt="" />
+                    <img src="./public/Logo.svg" alt=""/>
                 </div>
                 <ul>
                     <li><a href="#">Купить билеты</a></li>
                     <li><a href="#">Смотреть онлайн</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
+                
+            </div>
+            
+            </div>
+            <div className="Navbar2" id="Navbar">
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+            </div>
+            <div className="BarsBox">
+                <img src="./public/Bars.svg" alt="" id="Bars"/>
             </div>
             <div className="HeaderTitleBox">
                 <h1 className="HeaderTitle">

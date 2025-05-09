@@ -118,6 +118,7 @@ const Main = () =>{
                                 <img src="./public/BigPolygon.png" alt="" className="SectionBigCarImg2"/>
                                 </div>
                                 <div className="SectionBigCarImg">
+                                    
                                      <img src="./public/BigCar.png" alt="" className="SectionCarImg" />
                                 </div>
                             </div>
