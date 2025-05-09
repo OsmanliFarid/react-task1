@@ -102,3 +102,60 @@ ul li a{
     font-size: 14px;
     margin-left: 20px;
 }
+.MainDescBoxs2{
+    margin-top: 100px;
+    display: flex;
+}
+.MainDescHeaderTitle{
+    color: #040404;
+    font-weight: 300;
+    font-size: 32px;
+    font-family: Roboto;
+}
+.MainDescTitle3{
+    padding: 20px 0px;
+    color: #040404;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto;
+    line-height: 120%;
+    max-width: 352px;
+}
+.MainDescTitle4{
+    color: #040404;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 352px;
+}
+.MainDescImgBox2{
+    margin-left: 90px;
+}
+.Section3Cart,.Section3Cart2,.Section3Cart3{
+    display: flex;
+    flex-direction: column;
+}
+.Section3Table{
+    display: flex;
+    gap: 20px;
+    border-top: 1px solid #040404;
+    border-bottom: #040404;
+    padding: 20px 0px;
+}
+.Section3Boxs{
+    display: flex;
+    margin-top: 100px;
+}
+.Section3Title{
+    color: #040404;
+    font-size: 32px;
+    font-weight: 300px;
+    max-width: 415px;
+}
+.Section3DescTitle{
+    color: #040404;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 377px;
+    margin-top: 50px;
+}
