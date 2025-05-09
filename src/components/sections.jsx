@@ -77,8 +77,91 @@ const Main = () =>{
                                 </ul>
                             
                         </div>
+
                     </div>
+                    
                 </div>
+                <div className="SectionFinal">
+                    <div className="Container2">
+                        <div className="SectionFinalTitleBox">
+                            <h1 className="SectionFinalTitle">
+                                ТРЕК ПОРТИМАО
+                            </h1>
+                            <p className="SectionFinalDesc">
+                                Autodromo Internacional do Algarve находится в одноименном регионе на юге Португалии, недалеко от города Портиман. Открытый в октябре 2008 года автогоночный комплекс является одним из самых современных в Европе, раскинувшись на площади около 300 гектаров среди холмов, окружающих португальский город, а длина самой трассы составляет 4684 метра.
+                            </p>
+                            <div className="SectionFinalImgBox">
+                                <img src="./public/car.png" alt="" />
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div className="SectionBigCar">
+                        <div className="Container2">
+                            <div className="SectionBigCarTitleBox">
+                                <h1 className="SectionBigCarTitle">
+                                    СУПЕР ТРОФЕО ЭВО
+                                </h1>
+                                <div className="SectionBigCarDescBox">
+                                    <p className="SectionBigCardDesc">
+                                        Новый Huracán Super Trofeo EVO достигает еще больших высот, чем его прославленный предшественник, благодаря полностью переработанной аэродинамике. Huracán Super Trofeo EVO является идеальной стартовой площадкой для всех водителей, которые хотят начать карьеру в гонках класса GT.
+                                    </p>
+                                    <p className="SectionBigCardDesc2">
+                                        Huracán EVO — это эволюция самого успешного Lamborghini с двигателем V10. В результате тонкой настройки и усовершенствования существующих функций в сочетании с новыми конструктивными решениями, повышающими производительность, автомобиль выделяется своей способностью предугадывать и удовлетворять поведение, ожидания и желания водителя.
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div className="SectionBigCarFooter">
+                                <div className="SectionImgPolygonBox">
+                                    <img src="./public/SmallPolygon.png" alt="" className="SectionBigCarImg3"/>
+                                <img src="./public/BigPolygon.png" alt="" className="SectionBigCarImg2"/>
+                                </div>
+                                <div className="SectionBigCarImg">
+                                     <img src="./public/BigCar.png" alt="" className="SectionCarImg" />
+                                </div>
+                            </div>
+                            <div className="SectionBigCarFooterTitleBox">
+                                <h1>ПЕРЕМЕЩЕНИЕ5204 см³</h1>
+                                <h1>КРУТЯЩИЙ МОМЕНТ
+                                570 Нм при 6500 об/мин</h1>
+                                <h1>МОЩНОСТЬ (л.с.) / МОЩНОСТЬ (КВТ)
+                                620 л.с. при 8250 об/мин</h1>
+                                <h1>МАКС. СКОРОСТЬ
+                                325 км /ч</h1>
+                                <h1>МАКС. СКОРОСТЬ
+                                325 км /ч</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="Container2">
+                        <div className="Section4Box">
+                            <div className="Section4ImgBox">
+                                <img src="./public/PolygonAndCar.png" alt=""  className="Section4Img1"/>
+                                <img src="./public/Section4Polygon.png" alt="" className="Section4Img2"/>
+                                <img src="./public/CarSmallx2.png" alt="" className="Section4Img3"/>
+                            </div>
+                            <div className="Section4BoxTextBox">
+                                <p className="Section4BoxTitle">
+                                    Его неповторимый дизайн — это естественная эволюция культовых линий Huracán, включающая новые сложные решения, поднимающие производительность и вызывающие эмоции на невиданный ранее уровень.
+                                </p>
+                                <p className="Section4BoxTitle2">
+                                    Беспрецедентный обвес был разработан инженерами отдела автоспорта Automobili Lamborghini в сотрудничестве с Dallara Engineering и Lamborghini Centro Stile. Последний также разработал стартовую ливрею для автомобиля в честь партнерства между Lamborghini Squadra Corse и Roger Dubuis, которое началось в 2018 году.
+                                </p>
+                                <p className="Section4BoxTitle3">
+                                    Среди наиболее очевидных изменений в обвесе Lamborghini Huracan Super Trofeo EVO — задний спойлер на заднем капоте и верхний воздухозаборник, которые делают его мгновенно узнаваемым для зрителей.
+                                </p>
+                            </div>
+                            <div className="VideoBox">
+                                <img src="./public/video.png" alt="" />
+                            </div>
+                            <div className="Section4Carts">
+                                <h1 className="SectionCartHeaderTitle">
+                                    БЛОГ
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     )

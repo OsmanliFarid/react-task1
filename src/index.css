@@ -159,3 +159,284 @@ ul li a{
     max-width: 377px;
     margin-top: 50px;
 }
+.SectionFinal{
+    background: url(../public/GrandFinals.png) no-repeat center;
+    background-size: cover;
+    height: 890px;
+    margin-top: 100px;
+}
+.SectionFinalTitle{
+    padding-top: 50px;
+    color: #040404;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+.SectionFinalDesc{
+   color: #040404;
+   font-weight: 400;
+   font-family: Roboto;
+   font-size: 14px;
+   max-width: 434px;
+   margin-top: 30px;
+}
+.SectionFinalImgBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    
+}
+.SectionBigCar{
+    position: relative;
+    background-color: #363636;
+    height: 871px;
+
+}
+.SectionBigCarTitleBox{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 400px 300px;
+}
+.SectionBigCarTitle{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+.SectionBigCardDesc{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto;
+    width: 437px;
+}
+.SectionBigCardDesc2{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto;
+    width: 437px;
+    margin-top: 30px;
+}
+.SectionBigCarImg2,.SectionBigCarImg3{
+    position: absolute;
+}
+.SectionCarImg{
+    margin-top: 220px;
+    margin-left: 90px;
+}
+.SectionBigCarImg2{
+    top: 400px;
+    left: 270px;
+}
+.SectionBigCarImg3{
+    left: 180px;
+    top: 320px;
+}
+.SectionBigCarFooterTitleBox{
+    display: flex;
+    color: #fff;
+    font-weight: 400;
+    font-family: Roboto;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    h1{
+        font-size: 14px;
+    }
+}
+.Section4ImgBox img{
+    position: absolute;
+}
+.Section4BoxTitle{
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 14px;
+    color: #040404;
+    max-width: 285px;
+    padding-top: 120px;
+}
+.Section4BoxTitle2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #040404;
+    font-family: Roboto;
+    padding: 20px 0px;
+    max-width: 437px;
+}
+.Section4BoxTitle3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    max-width: 590px;
+    margin-top: 20px;
+}
+.Section4Box{
+    position: relative;
+}
+.Section4Img2{
+    right: 300px;
+    top: -30px;
+}
+.Section4Img3{
+    right: 265px;
+    top: 38px;
+}
+.Section4Img1{
+    right: 0px;
+    top: 120px;
+}
+.VideoBox{
+   margin-top: 100px;
+}
+.Carts{
+    max-width: 432px;
+}
+.CartTitle{
+    color: #040404;
+    font-weight: 400;
+    font-family: Roboto;
+    font-size: 20px;
+    width: 435px;
+    padding: 20px 0px;
+}
+.CartDesc{
+    color: #040404;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto;
+    max-width: 435px;
+    line-height: 120%;
+}
+.CartsBox{
+    display: flex;
+    gap: 30px;
+}
+.CartNew{
+    margin-top: 10px;
+}
+.Main2Box{
+    display: flex;
+    margin-top: 100px;
+    gap: 30px;
+}
+.Main2Title,.Main2Title3{
+    color: #9F6B08;
+    font-weight: 400px;
+    font-family: Roboto;
+    font-size: 12px;
+}
+.Main2Title2,.Main2Title4{
+    color: #040404;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    font-family: Roboto;
+    padding: 10px 0px 10px 0px;
+}
+.Main2Desc,.Main2Desc2{
+    color: #040404;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Roboto;
+    font-size: 14px;
+    max-width: 434px;
+    padding-bottom: 20px;
+}
+.FooterBoxs{
+    background-color: #363636;
+    margin-top: 100px;
+    height: 742px;
+}
+.FooterBox{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 450px 300px;
+}
+.FooterTitle{
+    font-weight: 300;
+    font-size: 32px;
+    color: #fff;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+.FooterTitle2{
+    font-family: Roboto;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.FooterNumber,.FooterNumber2,.FooterMail,.FooterPage,.FooterNumber3{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15.53px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0px;
+}
+.FooterTitleBox{
+    display: flex;
+    flex-direction: column;
+}
+.FooterTitle3{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding: 30px 0px 20px 0px;
+}
+.FooterConcat{
+    *{
+        width: 43px;
+        height: 30px;
+        color: #fff;
+        margin-top: 50px;
+    }
+}
+.FooterIframeTitle{
+    color: #fff;
+    font-weight: 700;
+    font-family: Roboto;
+    font-size: 16px;
+    margin-top: 70px;
+    padding: 20px 0px;
+}
+.FooterIframeTitle2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 15.53px;
+    width: 449px;
+    padding: 0px 0px 20px 0px;
+    font-family: Roboto;
+}
+.FooterEnd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.FooterEndTitle,.FooterEndTitle2{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.CartsArrowBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+.ArrowLeft,.ArrowRight{
+    border-radius: 50%;
+    border: 3px solid #9F6B08;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
