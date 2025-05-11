@@ -11,6 +11,7 @@ const App = () =>{
         <Carts />
         <Main2 />
         <Footer />
+        
     </div>
    )
 
