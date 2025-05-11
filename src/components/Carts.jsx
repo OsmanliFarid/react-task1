@@ -1,8 +1,6 @@
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 const Carts = () =>{
-
-    
     const NewArray = [
         {
             id:1,
