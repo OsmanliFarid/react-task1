@@ -6,6 +6,7 @@ const Main = () =>{
                     <h1 className="MainTitle">
                     СУПЕР ТРОФЕО МИРОВОЙ ФИНАЛ
                     </h1>
+                    
                     <div className="MainDescBoxs">
                         <div className="MainDescTitleBox">
                             <p className="MainDescTitle">
