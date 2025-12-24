@@ -23,7 +23,7 @@ const Main2 = () => {
             </p>
           </div>
           <div className="Main2BoxImg">
-            <img src="/public/Main2Img.png" alt="" />
+            <img src="/Main2Img.png" alt="" />
           </div>
         </div>
       </div>

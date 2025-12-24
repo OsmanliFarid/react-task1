@@ -25,7 +25,7 @@ const Main = () => {
             </div>
           </div>
           <div className="MainDescImgBox">
-            <img src="/public/MainSectionSvg.svg" alt="" />
+            <img src="/MainSectionSvg.svg" alt="" />
           </div>
           <div className="MainDescBoxs2">
             <div className="MainDescTitleBox2">
@@ -48,7 +48,7 @@ const Main = () => {
               </p>
             </div>
             <div className="MainDescImgBox2">
-              <img src="/public/MainDescBack.png" alt="" />
+              <img src="/MainDescBack.png" alt="" />
             </div>
           </div>
           <div className="Section3Boxs">
@@ -107,7 +107,7 @@ const Main = () => {
                 самой трассы составляет 4684 метра.
               </p>
               <div className="SectionFinalImgBox">
-                <img src="/public/car.png" alt="" />
+                <img src="/car.png" alt="" />
               </div>
             </div>
           </div>
@@ -137,22 +137,18 @@ const Main = () => {
             <div className="SectionBigCarFooter">
               <div className="SectionImgPolygonBox">
                 <img
-                  src="/public/SmallPolygon.png"
+                  src="/SmallPolygon.png"
                   alt=""
                   className="SectionBigCarImg3"
                 />
                 <img
-                  src="/public/BigPolygon.png"
+                  src="/BigPolygon.png"
                   alt=""
                   className="SectionBigCarImg2"
                 />
               </div>
               <div className="SectionBigCarImg">
-                <img
-                  src="/public/BigCar.png"
-                  alt=""
-                  className="SectionCarImg"
-                />
+                <img src="/BigCar.png" alt="" className="SectionCarImg" />
               </div>
             </div>
             <div className="SectionBigCarFooterTitleBox">
@@ -167,21 +163,9 @@ const Main = () => {
         <div className="Container2">
           <div className="Section4Box">
             <div className="Section4ImgBox">
-              <img
-                src="/public/PolygonAndCar.png"
-                alt=""
-                className="Section4Img1"
-              />
-              <img
-                src="/public/Section4Polygon.png"
-                alt=""
-                className="Section4Img2"
-              />
-              <img
-                src="/public/CarSmallx2.png"
-                alt=""
-                className="Section4Img3"
-              />
+              <img src="/PolygonAndCar.png" alt="" className="Section4Img1" />
+              <img src="/Section4Polygon.png" alt="" className="Section4Img2" />
+              <img src="/CarSmallx2.png" alt="" className="Section4Img3" />
             </div>
             <div className="Section4BoxTextBox">
               <p className="Section4BoxTitle">
@@ -206,7 +190,7 @@ const Main = () => {
               </p>
             </div>
             <div className="VideoBox">
-              <img src="/public/video.png" alt="" />
+              <img src="/video.png" alt="" />
             </div>
             <div className="Section4Carts">
               <h1 className="SectionCartHeaderTitle">БЛОГ</h1>

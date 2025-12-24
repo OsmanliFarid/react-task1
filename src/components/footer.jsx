@@ -38,12 +38,12 @@ const Footer = () => {
                 Sitio do Escampadinho, Mexilhoeira Grande, 8500-148 Portimao,
                 Portugal
               </p>
-              <img src="/public/img.png" alt="" />
+              <img src="/img.png" alt="" />
             </div>
           </div>
           <div className="FooterEnd">
             <h1 className="FooterEndTitle">Design by Varvara Prokopchuk</h1>
-            <img src="/public/FooterLogo.png" alt="" />
+            <img src="/FooterLogo.png" alt="" />
             <h1 className="FooterEndTitle2">Политика конфиденциальности </h1>
           </div>
         </div>
